@@ -6,3 +6,14 @@ This has the basic implementation of network files system. networ file system is
 
 ### Assumptions 
 ` Only a single DHCP server exists `
+
+> Clone the repo by running the following command :
+> ```
+> git clone <REPO>
+> ```
+> To push the code, do the following :
+> ```
+> git add <files>
+> git commit -m "<Commit Message>"
+> git push
+> ```
