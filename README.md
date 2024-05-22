@@ -8,7 +8,8 @@ This has the basic implementation of network files system. networ file system is
 - DHCP port = 1000
 
 ### Assumptions 
-` Only a single DHCP server exists `
+- ` Only a single DHCP server exists `
+- Simple File Operations such as Read, Write, Create and Delete are Handled
 
 ### Contributions
 
