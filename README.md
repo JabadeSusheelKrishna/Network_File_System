@@ -10,6 +10,9 @@ This has the basic implementation of network files system. networ file system is
 ### Assumptions 
 ` Only a single DHCP server exists `
 
+<hr>
+### Contributions
+
 > Clone the repo by running the following command :
 > ```
 > git clone <REPO>
