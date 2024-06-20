@@ -4,8 +4,8 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 
-int main(){
-
+int main()
+{
   char *ip = "127.0.0.1";
   int port = 5566;
 
@@ -15,7 +15,8 @@ int main(){
   int n;
 
   sock = socket(AF_INET, SOCK_STREAM, 0);
-  if (sock < 0){
+  if (sock < 0)
+  {
     perror("[-]Socket error");
     exit(1);
   }
@@ -26,7 +27,7 @@ int main(){
   addr.sin_port = port;
   addr.sin_addr.s_addr = inet_addr(ip);
 
-  connect(sock, (struct sockaddr*)&addr, sizeof(addr));
+  connect(sock, (struct sockaddr *)&addr, sizeof(addr));
   printf("Connected to the server.\n");
 
   bzero(buffer, 1024);
@@ -42,5 +43,4 @@ int main(){
   printf("Disconnected from the server.\n");
 
   return 0;
-
 }
